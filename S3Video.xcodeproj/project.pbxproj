@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80D3025C3C3B24071F2F31C4 /* Pods_S3Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590B3F0077783FA9682E5365 /* Pods_S3Video.framework */; };
+		884C46BC200667FB00DF2EB2 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884C46BB200667FB00DF2EB2 /* AutoLayout.swift */; };
 		88F6716C20062ED600C838AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6716B20062ED600C838AE /* AppDelegate.swift */; };
 		88F6716E20062ED600C838AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6716D20062ED600C838AE /* ViewController.swift */; };
 		88F6717120062ED600C838AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F6716F20062ED600C838AE /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		2BB9ABBE47EEC689185F4330 /* Pods-S3Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3Video/Pods-S3Video.debug.xcconfig"; sourceTree = "<group>"; };
 		33224C33D6658B664C9887D1 /* Pods-S3Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Video.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3Video/Pods-S3Video.release.xcconfig"; sourceTree = "<group>"; };
 		590B3F0077783FA9682E5365 /* Pods_S3Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884C46BB200667FB00DF2EB2 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 		88F6716820062ED600C838AE /* S3Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F6716B20062ED600C838AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F6716D20062ED600C838AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				88F6716D20062ED600C838AE /* ViewController.swift */,
 				88F6717D200634D200C838AE /* VideoLoader.swift */,
 				88F6716F20062ED600C838AE /* Main.storyboard */,
+				884C46BB200667FB00DF2EB2 /* AutoLayout.swift */,
 				88F6717220062ED600C838AE /* Assets.xcassets */,
 				88F6717420062ED600C838AE /* LaunchScreen.storyboard */,
 				88F6717720062ED600C838AE /* Info.plist */,
@@ -232,6 +235,7 @@
 			files = (
 				88F6716E20062ED600C838AE /* ViewController.swift in Sources */,
 				88F6716C20062ED600C838AE /* AppDelegate.swift in Sources */,
+				884C46BC200667FB00DF2EB2 /* AutoLayout.swift in Sources */,
 				88F6717E200634D200C838AE /* VideoLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

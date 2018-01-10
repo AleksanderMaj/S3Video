@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,23 +19,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNS-Jw-Ymq">
-                                <rect key="frame" x="151" y="318" width="72" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNS-Jw-Ymq">
+                                <rect key="frame" x="151" y="328.5" width="72" height="30"/>
                                 <state key="normal" title="Play Video"/>
                                 <connections>
                                     <action selector="playButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="xHd-0l-Qgs"/>
                                 </connections>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PSa-Mb-lZG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="211"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PSa-Mb-lZG" secondAttribute="height" multiplier="16:9" id="LDw-vS-Zp7"/>
+                                </constraints>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PSa-Mb-lZG" secondAttribute="trailing" id="3IC-au-pPX"/>
+                            <constraint firstItem="uNS-Jw-Ymq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3gz-OH-kAa"/>
+                            <constraint firstItem="uNS-Jw-Ymq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LVh-my-Hg7"/>
+                            <constraint firstItem="PSa-Mb-lZG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WSk-eC-HGK"/>
+                            <constraint firstItem="PSa-Mb-lZG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="crw-UX-yxA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="containerView" destination="PSa-Mb-lZG" id="ZSs-qp-cAe"/>
                         <outlet property="playButton" destination="uNS-Jw-Ymq" id="BCR-Ht-sB3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jz6-dN-Q15">
+            <objects>
+                <viewController id="YFl-F8-nO8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QMB-gf-7wb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rea-7e-dSB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
