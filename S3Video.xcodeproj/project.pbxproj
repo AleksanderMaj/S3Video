@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D3025C3C3B24071F2F31C4 /* Pods_S3Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590B3F0077783FA9682E5365 /* Pods_S3Video.framework */; };
+		88F6716C20062ED600C838AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6716B20062ED600C838AE /* AppDelegate.swift */; };
+		88F6716E20062ED600C838AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6716D20062ED600C838AE /* ViewController.swift */; };
+		88F6717120062ED600C838AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F6716F20062ED600C838AE /* Main.storyboard */; };
+		88F6717320062ED600C838AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F6717220062ED600C838AE /* Assets.xcassets */; };
+		88F6717620062ED600C838AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F6717420062ED600C838AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BB9ABBE47EEC689185F4330 /* Pods-S3Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-S3Video/Pods-S3Video.debug.xcconfig"; sourceTree = "<group>"; };
+		33224C33D6658B664C9887D1 /* Pods-S3Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3Video.release.xcconfig"; path = "Pods/Target Support Files/Pods-S3Video/Pods-S3Video.release.xcconfig"; sourceTree = "<group>"; };
+		590B3F0077783FA9682E5365 /* Pods_S3Video.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S3Video.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F6716820062ED600C838AE /* S3Video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S3Video.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F6716B20062ED600C838AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88F6716D20062ED600C838AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88F6717020062ED600C838AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88F6717220062ED600C838AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F6717520062ED600C838AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F6717720062ED600C838AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F6716520062ED600C838AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3025C3C3B24071F2F31C4 /* Pods_S3Video.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F6715F20062ED600C838AE = {
+			isa = PBXGroup;
+			children = (
+				88F6716A20062ED600C838AE /* S3Video */,
+				88F6716920062ED600C838AE /* Products */,
+				A52B01F9514F84206C22D32F /* Pods */,
+				AAA2B02D8938C8E4E3C7D006 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88F6716920062ED600C838AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F6716820062ED600C838AE /* S3Video.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F6716A20062ED600C838AE /* S3Video */ = {
+			isa = PBXGroup;
+			children = (
+				88F6716B20062ED600C838AE /* AppDelegate.swift */,
+				88F6716D20062ED600C838AE /* ViewController.swift */,
+				88F6716F20062ED600C838AE /* Main.storyboard */,
+				88F6717220062ED600C838AE /* Assets.xcassets */,
+				88F6717420062ED600C838AE /* LaunchScreen.storyboard */,
+				88F6717720062ED600C838AE /* Info.plist */,
+			);
+			path = S3Video;
+			sourceTree = "<group>";
+		};
+		A52B01F9514F84206C22D32F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9ABBE47EEC689185F4330 /* Pods-S3Video.debug.xcconfig */,
+				33224C33D6658B664C9887D1 /* Pods-S3Video.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAA2B02D8938C8E4E3C7D006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590B3F0077783FA9682E5365 /* Pods_S3Video.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F6716720062ED600C838AE /* S3Video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F6717A20062ED600C838AE /* Build configuration list for PBXNativeTarget "S3Video" */;
+			buildPhases = (
+				86C99633B137BF5F5D9D6F18 /* [CP] Check Pods Manifest.lock */,
+				88F6716420062ED600C838AE /* Sources */,
+				88F6716520062ED600C838AE /* Frameworks */,
+				88F6716620062ED600C838AE /* Resources */,
+				BCD48219312593660C4EABA1 /* [CP] Embed Pods Frameworks */,
+				FB28AB9F02DE3DAADA070F2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3Video;
+			productName = S3Video;
+			productReference = 88F6716820062ED600C838AE /* S3Video.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F6716020062ED600C838AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aleksander Maj";
+				TargetAttributes = {
+					88F6716720062ED600C838AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88F6716320062ED600C838AE /* Build configuration list for PBXProject "S3Video" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F6715F20062ED600C838AE;
+			productRefGroup = 88F6716920062ED600C838AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F6716720062ED600C838AE /* S3Video */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F6716620062ED600C838AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F6717620062ED600C838AE /* LaunchScreen.storyboard in Resources */,
+				88F6717320062ED600C838AE /* Assets.xcassets in Resources */,
+				88F6717120062ED600C838AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86C99633B137BF5F5D9D6F18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-S3Video-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD48219312593660C4EABA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3Video/Pods-S3Video-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB28AB9F02DE3DAADA070F2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-S3Video/Pods-S3Video-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F6716420062ED600C838AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F6716E20062ED600C838AE /* ViewController.swift in Sources */,
+				88F6716C20062ED600C838AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88F6716F20062ED600C838AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F6717020062ED600C838AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88F6717420062ED600C838AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F6717520062ED600C838AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88F6717820062ED600C838AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F6717920062ED600C838AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88F6717B20062ED600C838AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB9ABBE47EEC689185F4330 /* Pods-S3Video.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7E835U7QXG;
+				INFOPLIST_FILE = S3Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htdevelopers.S3Video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F6717C20062ED600C838AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33224C33D6658B664C9887D1 /* Pods-S3Video.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7E835U7QXG;
+				INFOPLIST_FILE = S3Video/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htdevelopers.S3Video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F6716320062ED600C838AE /* Build configuration list for PBXProject "S3Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F6717820062ED600C838AE /* Debug */,
+				88F6717920062ED600C838AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F6717A20062ED600C838AE /* Build configuration list for PBXNativeTarget "S3Video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F6717B20062ED600C838AE /* Debug */,
+				88F6717C20062ED600C838AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F6716020062ED600C838AE /* Project object */;
+}
