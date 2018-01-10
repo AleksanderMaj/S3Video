@@ -13,6 +13,8 @@
 		88F6717120062ED600C838AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F6716F20062ED600C838AE /* Main.storyboard */; };
 		88F6717320062ED600C838AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F6717220062ED600C838AE /* Assets.xcassets */; };
 		88F6717620062ED600C838AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F6717420062ED600C838AE /* LaunchScreen.storyboard */; };
+		88F6717E200634D200C838AE /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6717D200634D200C838AE /* VideoLoader.swift */; };
+		88F671802006482300C838AE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 88F6717F2006482300C838AE /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		88F6717220062ED600C838AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F6717520062ED600C838AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F6717720062ED600C838AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F6717D200634D200C838AE /* VideoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLoader.swift; sourceTree = "<group>"; };
+		88F6717F2006482300C838AE /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 		88F6716A20062ED600C838AE /* S3Video */ = {
 			isa = PBXGroup;
 			children = (
+				88F6717F2006482300C838AE /* awsconfiguration.json */,
 				88F6716B20062ED600C838AE /* AppDelegate.swift */,
 				88F6716D20062ED600C838AE /* ViewController.swift */,
+				88F6717D200634D200C838AE /* VideoLoader.swift */,
 				88F6716F20062ED600C838AE /* Main.storyboard */,
 				88F6717220062ED600C838AE /* Assets.xcassets */,
 				88F6717420062ED600C838AE /* LaunchScreen.storyboard */,
@@ -150,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F671802006482300C838AE /* awsconfiguration.json in Resources */,
 				88F6717620062ED600C838AE /* LaunchScreen.storyboard in Resources */,
 				88F6717320062ED600C838AE /* Assets.xcassets in Resources */,
 				88F6717120062ED600C838AE /* Main.storyboard in Resources */,
@@ -183,9 +190,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-S3Video/Pods-S3Video-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -216,6 +232,7 @@
 			files = (
 				88F6716E20062ED600C838AE /* ViewController.swift in Sources */,
 				88F6716C20062ED600C838AE /* AppDelegate.swift in Sources */,
+				88F6717E200634D200C838AE /* VideoLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,5 +6,7 @@ target 'S3Video' do
   use_frameworks!
 
   # Pods for S3Video
-
+  pod 'AWSS3'
+  pod 'AWSMobileClient'
+  
 end
